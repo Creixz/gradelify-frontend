@@ -1,0 +1,102 @@
+.barra__profesores {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+
+.btn__agregar {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: 1px solid #1dad3c;
+  border-radius: 0.5rem;
+  color: #1dad3c;
+}
+.btn__agregar:hover {
+  background-color: #1dad3c;
+  color: white;
+}
+
+.buscar__form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.label__busqueda {
+  color: #f4633a;
+}
+
+.input__busqueda {
+  width: 14rem;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.profesores__table {
+  line-height: 1.5;
+  border-collapse: collapse;
+  background-color: rgba(255, 160, 116, 0.1);
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.profesores__thead th {
+  background-color: #f4633a;
+  padding: 0.5rem 1rem;
+}
+
+.profesores__tbody td {
+  padding: 0.5rem 1rem;
+}
+
+.activo {
+  color: #1dad3c;
+  border: 1px solid #1dad3c;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.activo:hover {
+  background-color: #1dad3c;
+  color: white;
+}
+
+.inactivo {
+  color: red;
+  border: 1px solid red;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.inactivo:hover {
+  background-color: red;
+  color: white;
+}
+
+.edit__bottom {
+  color: rgb(255, 208, 0);
+}
+
+.btn__listar-salones {
+  color: rgb(0, 119, 255);
+  padding: 0.14rem 0.5rem 0.14rem 1.7rem;  
+  border: 1px solid rgb(0, 119, 255);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn__listar-salones:hover {
+  color: white;
+  background-color: rgb(0, 119, 255);
+}
+
+.icono__listar-salon {
+  position: absolute;
+  left: 0.2rem;
+  top: 0.36rem;
+}

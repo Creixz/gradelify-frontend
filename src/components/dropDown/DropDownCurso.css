@@ -1,0 +1,14 @@
+.curso__select {
+    padding: 0.5rem 1rem;
+    border: 1px solid #F4633A;
+    border-radius: 0.5rem;
+    background-color: #f4623a1a;
+    cursor: pointer;
+}
+
+.curso__option {
+    background-color: #f4623af3;
+    padding: 1rem 0;
+    border: none;
+    cursor: pointer;
+}

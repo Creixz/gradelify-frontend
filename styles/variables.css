@@ -1,0 +1,15 @@
+/* BG */
+:root {
+    --main-bg: #303247;
+    --content-bg: #242738;
+    --soft-bg: #384256;
+    --dark-bg: #222b3c;
+}
+
+/* TEXT */
+:root {
+    --main-color: white;
+    --soft-color: #ddd;
+    --dark-color: #2a3447;
+    --special-color: red
+}

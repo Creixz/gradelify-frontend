@@ -1,0 +1,113 @@
+.busqueda__registro {
+    margin-bottom: 1rem;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .telaraña-modal {
+    background-color: #242738;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f4633a;
+  }
+  
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f4633a;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-close {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-close:hover {
+    background: #0056b3;
+  }
+
+  .graficos__pastel-button {
+    border: 1px solid rgb(201, 40, 158);
+    color: rgb(201, 40, 158);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .graficos__pastel-button:hover {
+    color: white;
+    background-color: rgb(201, 40, 158);
+    cursor: pointer;
+  }
+
+  .asistencia__button {
+    border: 1px solid rgb(40, 201, 147);
+    color: rgb(40, 201, 147);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .asistencia__button:hover {
+    color: white;
+    background-color: rgb(40, 201, 147);
+    cursor: pointer;
+  }
+
+  .top-students__button {
+    border: 1px solid rgb(214, 187, 31);
+    color: rgb(214, 187, 31);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .top-students__button:hover {
+    color: white;
+    background-color: rgb(214, 187, 31);
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,27 @@
+@import "../../../styles/variables.css";
+
+.rol_board {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.7rem;
+  color: rgb(147, 145, 145);
+}
+
+.list__item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.list__item:hover:not(.active) {
+  background-color: rgba(102, 102, 102, 0.767);
+}
+
+.active {
+  background-color: #F4633A;
+}
+
+.item__title {
+}

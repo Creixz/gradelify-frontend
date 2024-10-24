@@ -1,0 +1,22 @@
+.graficos-distribucion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .grafico h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,47 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .card1 {
+    background: linear-gradient(45deg,#247bdd 40%,#5da5f6);
+  }
+
+  .card2 {
+    background: linear-gradient(45deg,#1db093 40%,#4edbbf);
+  }
+
+  .card3 {
+    background: linear-gradient(45deg,#ffaa33 40%,#ffc16a);
+  }
+
+  .card4 {
+    background: linear-gradient(45deg,#ff3859 40%,#ff6780);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .card p {
+    margin: 10px 0 0;
+    font-size: 2em;
+    color: white;
+  }
+  

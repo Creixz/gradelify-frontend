@@ -1,0 +1,5 @@
+.form__control.read-only {
+    background-color: #383636;
+    cursor: not-allowed;
+    color: #afafaf;
+  }

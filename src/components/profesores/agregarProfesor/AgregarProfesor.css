@@ -1,0 +1,63 @@
+.container__agregar-profesor {
+    margin: 1rem;
+}
+
+.titulo__agregar-profesor {
+    font-family: 'Luckiest Guy';
+    font-size: 1.5rem;
+    color: #F4633A;
+    margin-bottom: 1rem;
+}
+
+.division {
+    display: flex;
+    gap: 3rem;
+}
+
+.label__input {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form__control {
+    width: 20rem;
+    background-color: #f4623a10;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #F4633A;
+}
+
+.form__control:focus {
+    border-color: #F4633A; 
+}
+
+.botones__agregar-profesor {
+    display: flex;
+    gap: 1rem;
+}
+
+option {
+    background-color: #f4623a;
+}
+
+.btn__regresar {
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    color: red;
+}
+
+.btn__regresar:hover {
+    color: white;
+    background-color: red;
+}
+
+.error {
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+    color: #f4623a;
+}
+

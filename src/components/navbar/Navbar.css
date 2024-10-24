@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.navbar {
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navabar__logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 0.75rem;
+}
+
+.navbar__icons {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.navbar__subject {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.navbar__school {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 500;
+    color: #F4633A;
+    font-size: 1.5rem;
+}
+
+.navbar__user {
+    display: flex;
+    border: 1px solid #fff;
+    background-color: #303247;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    gap: 0.25rem;
+    white-space: nowrap; /* Evitar saltos de línea */
+}
+
+.navbar__user:hover {
+    color: #F4633A;
+    border-color: #F4633A;
+}
+
+.navbar__logout {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #303247;
+}
+
+.navbar__logout span {
+    font-size: 1rem;
+}
+
+.navbar__logout:hover {
+    color: #F4633A;
+}

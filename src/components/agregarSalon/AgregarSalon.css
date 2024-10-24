@@ -1,0 +1,14 @@
+.container__agregar-salon {
+    margin: 1rem;
+}
+
+.titulo__agregar-salon {
+    font-family: 'Luckiest Guy';
+    font-size: 1.5rem;
+    color: #F4633A;
+    margin-bottom: 1rem;
+}
+
+.btn__agregar {
+    cursor: pointer;
+}

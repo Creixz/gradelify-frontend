@@ -1,0 +1,23 @@
+.listado__salones {
+  padding: 1rem;
+}
+
+.btn__listar {
+  color: rgb(0, 119, 255);
+  padding: 0.14rem 0rem 0.14rem 2.1rem;  
+  border: 1px solid rgb(0, 119, 255);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn__listar:hover {
+  color: white;
+  background-color: rgb(0, 119, 255);
+}
+
+.icono__listar {
+  position: absolute;
+  left: 0.4rem;
+  top: 0.36rem;
+}

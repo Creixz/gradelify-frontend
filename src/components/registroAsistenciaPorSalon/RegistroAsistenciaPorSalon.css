@@ -1,0 +1,39 @@
+.asistencia-presente {
+  color: green;
+  font-weight: bold;
+}
+
+.asistencia-ausente {
+  color: red;
+  font-weight: bold;
+}
+
+.asistencia-general {
+    text-align: center; /* Centrar el texto */
+}
+
+
+.add-week-button {
+  margin-top: 20px;
+}
+
+
+.button-allAsistio {
+    display: inline;
+    padding: 0 0.3rem;
+    border-radius: 0.5rem;
+    margin-left: 0.2rem;
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn__regresar {
+    cursor: pointer;
+}
+
+.registro-asistencia {
+    font-size: 1.5rem;
+    color: #F4633A;
+    font-family: 'Luckiest Guy';
+    margin-bottom: 1rem;
+}

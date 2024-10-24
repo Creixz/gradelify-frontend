@@ -1,0 +1,122 @@
+  .super-contenedor {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: #1C1429;
+  }
+
+  .contenedor {
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+  }
+
+  .contenido {
+    background: #2E2341;
+    width: 100%;
+    padding: 25px 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+  }
+  .contenido form .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: #F4633A;
+  }
+  
+  .contenido form .input-box {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+  }
+  .contenido form .input-box input {
+    width: 20rem;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background-color: #544669;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+  .contenido form .input-box input::placeholder {
+    color: #a7928c;
+  }
+
+  .contenido form .underline::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    /* background: #9fc9c4; */
+    left: 0;
+    bottom: 0;
+  }
+  
+  .contenido form .button {
+    margin: 40px 0 20px 0;
+  }
+  .contenido .input-box input[type="submit"] {
+    background: linear-gradient(to right, #F4633A 80%, #f4623abe 100%);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .contenido .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+  }
+  .contenido .option {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+  }
+  .registro{
+      text-align: center;
+  }
+  
+  .logo{
+    display: flex;
+    font-size: 4rem;
+    font-family: "Luckiest Guy", cursive;
+    align-items: center;
+    color: white;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .book {
+    font-size: 10rem;
+  }
+
+  .modal-login {
+    color: white;
+    overflow-y: hidden;
+  }
+
+  .modal-login h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #F4633A;
+    text-align: center;
+  }
+
+  .modal-login p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  

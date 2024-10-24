@@ -1,0 +1,26 @@
+@import './variables.css';
+
+.main {
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.container__menu {
+    width: 250px;
+    padding: 5px 20px;    
+}
+
+.container__content {
+    background-color: var(--content-bg);
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 1.25rem;
+    width: 100%;
+    min-height: 49.5rem;
+}
+
